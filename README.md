@@ -14,4 +14,3 @@ Abaixo estão os principais tipos de branches que utilizamos neste fluxo:
 | `bugfix/*` | Branches para correção de **bugs encontrados na develop** antes de irem para o ambiente de testes/produção. |
 | `hotfix/*` | Branches criadas diretamente da `production` para corrigir **erros críticos e urgentes** em ambiente de produção, sendo mescladas de volta para `production` e `develop`. |
 
----
