@@ -1,7 +1,7 @@
 print("=====CONTROLADORIA DE ORÇAMENTO PESSOAL=====")
 
 receita_total = float(input("Insira o valor da sua receita (R$): "))
-total_despesas = float(input("Insira o valor total das suas despesas mensais (R$): "))
+total_despesas = float(input("Insira o valor total das suas despesas mensais (R$): \n"))
 
 lucro = receita_total - total_despesas
 percentual_despesa = (total_despesas /receita_total) * 100    
